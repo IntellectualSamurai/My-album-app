@@ -1,0 +1,32 @@
+.menu-album {
+    display:flex;
+    justify-content: space-between;
+    padding: 1% 6%;
+    font-weight: bold;
+}
+
+.header-img {
+    width: 30px;
+}
+
+.search-btn {
+    /* padding: 1% 6%; */
+    font-weight: bold;
+}
+
+.new-album-button {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
+}
+.new-album-button button {
+    background-color: skyblue;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+
+
