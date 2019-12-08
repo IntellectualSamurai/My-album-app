@@ -3,10 +3,18 @@
     justify-content: space-between;
     padding: 1% 6%;
     font-weight: bold;
+    margin-top: 60px;
+}
+.menu-album2 {
+    display:flex;
+    align-items: center;
+    font-family: Arial;
 }
 
 .header-img {
     width: 30px;
+    margin-right: 10px;
+
 }
 
 .search-btn {
@@ -18,6 +26,8 @@
     display: flex;
     width: 30%;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: 20px;
 
 }
 .new-album-button button {
@@ -25,8 +35,24 @@
     border-radius: 4px;
     font-weight: bold;
     padding: 5px;
-
+    margin-left: auto;
+    margin-right: 10px;
+}
+.search{
+    margin-right: 5px;
 }
 
+.boxes{ 
+   display: flex;
+   justify-content: space-evenly;
+   align-items:center;
+   margin: 5%;
+}
 
+.album-images{
+    width: 45%;
+}
 
+.box {
+ flex-wrap: wrap;
+}
